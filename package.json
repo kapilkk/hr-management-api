@@ -1,0 +1,37 @@
+{
+  "name": "hr-management-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapilkk/hr-management-api.git"
+  },
+  "author": "Kapil Kushwaha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kapilkk/hr-management-api/issues"
+  },
+  "homepage": "https://github.com/kapilkk/hr-management-api#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.9.2",
+    "formidable": "^1.2.2",
+    "generate-password": "^1.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.10",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
