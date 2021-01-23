@@ -5,7 +5,7 @@ const passwordGenerator = require('generate-password');
 const sgMail = require('@sendgrid/mail')
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-const webappUrl = "";
+const webappUrl = "https://hr-management-webapp.herokuapp.com";
 
 //middleware to get employee by id
 exports.getEmployeeById = (req, res, next, id) => {
