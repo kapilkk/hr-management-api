@@ -36,7 +36,6 @@ router.get("/search/recent",
 router.get("/search/current",
     isSignedIn,
     getSetEmployeeById,
-    isHR,
     getCurrentEmployee
 );
 
@@ -47,7 +46,6 @@ router.get("/search/name",
     isHR,
     searchEmployees
 );
-
 
 
 //add employee(super-admin) route
